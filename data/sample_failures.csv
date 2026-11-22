@@ -1,0 +1,61 @@
+object_id,object_type,amount,vendor,ramp_entity,date,raw_error
+RMP-0013,reimbursement,1917.18,Uline,Northwind UK,2026-11-03,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0031,bill,7906.97,Figma,Northwind US,2026-10-30,The accounting period is closed in your accounting provider. Please open the period or change the accounting date to fall within an open period.
+RMP-0004,card transaction,5068.76,Notion,Northwind UK,2026-11-15,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0024,card transaction,6135.34,Figma,Northwind UK,2026-11-18,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0041,bill payment,1746.07,Figma,Northwind Canada,2026-11-14,Please enter value(s) for: Location
+RMP-0055,card transaction,5589.66,Notion,Northwind Canada,2026-11-19,Unauthorized user
+RMP-0039,bill,2535.16,Zoom,Northwind US,2026-11-18,Please enter value(s) for: Location
+RMP-0026,bill payment,1457.09,AWS,Northwind Canada,2026-10-30,The accounting period is closed in your accounting provider. Please open the period or change the accounting date to fall within an open period.
+RMP-0038,bill,643.91,AWS,Northwind UK,2026-11-03,Please enter value(s) for: Location
+RMP-0050,reimbursement,1990.6,Gusto,Northwind Canada,2026-11-18,"We weren't able to sync across the following transaction, as it appears the account (1482) you chose is not a valid selection in NetSuite."
+RMP-0025,reimbursement,6926.64,Gusto,Northwind UK,2026-11-10,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0030,reimbursement,7913.35,Uline,Northwind US,2026-10-30,The accounting period is closed in your accounting provider. Please open the period or change the accounting date to fall within an open period.
+RMP-0053,card transaction,7668.03,Figma,Northwind Canada,2026-11-03,Unauthorized user
+RMP-0012,reimbursement,4102.56,Gusto,Northwind UK,2026-11-12,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0037,bill,5312.42,AWS,Northwind US,2026-10-30,The accounting period is closed in your accounting provider. Please open the period or change the accounting date to fall within an open period.
+RMP-0015,bill payment,2458.73,Delta,Northwind UK,2026-11-11,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0006,reimbursement,2529.73,Delta,Northwind UK,2026-11-04,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0023,bill payment,3459.31,Zoom,Northwind UK,2026-11-09,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0005,reimbursement,7292.5,AWS,Northwind UK,2026-11-14,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0059,card transaction,696.42,Uline,Northwind Canada,2026-11-09,Please enter value(s) for: Primary Subsidiary
+RMP-0049,bill payment,2595.83,Gusto,Northwind US,2026-11-07,"We weren't able to sync across the following transaction, as it appears the account (1482) you chose is not a valid selection in NetSuite."
+RMP-0027,bill,4588.83,Figma,Northwind Canada,2026-10-30,The accounting period is closed in your accounting provider. Please open the period or change the accounting date to fall within an open period.
+RMP-0058,bill payment,2872.95,Figma,Northwind US,2026-11-15,Invalid Reference Id | Invalid Reference Id : Accounts element id [6120].
+RMP-0033,bill,2414.91,Notion,Northwind US,2026-10-30,The accounting period is closed in your accounting provider. Please open the period or change the accounting date to fall within an open period.
+RMP-0021,bill,4605.36,Figma,Northwind UK,2026-11-04,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0003,card transaction,306.98,Delta,Northwind UK,2026-11-17,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0002,bill,6638.78,Figma,Northwind UK,2026-11-14,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0028,bill,1409.44,WeWork,Northwind Canada,2026-10-30,The accounting period is closed in your accounting provider. Please open the period or change the accounting date to fall within an open period.
+RMP-0045,bill,2535.76,Delta,Northwind US,2026-11-15,Please enter value(s) for: Location
+RMP-0016,card transaction,2092.27,AWS,Northwind UK,2026-11-13,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0032,card transaction,8802.74,WeWork,Northwind US,2026-10-30,The accounting period is closed in your accounting provider. Please open the period or change the accounting date to fall within an open period.
+RMP-0051,card transaction,6741.86,Gusto,Northwind US,2026-11-19,"We weren't able to sync across the following transaction, as it appears the account (1482) you chose is not a valid selection in NetSuite."
+RMP-0056,reimbursement,8414.97,Delta,Northwind Canada,2026-11-11,Unauthorized user
+RMP-0022,bill,5661.92,Notion,Northwind UK,2026-11-03,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0014,bill,4825.89,Delta,Northwind UK,2026-11-15,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0060,bill,8402.0,Uline,Northwind US,2026-11-12,Please enter value(s) for: Primary Subsidiary
+RMP-0018,bill payment,7966.76,Zoom,Northwind UK,2026-11-09,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0010,reimbursement,5213.08,Figma,Northwind UK,2026-11-08,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0047,bill,3681.47,Gusto,Northwind US,2026-11-13,"We weren't able to sync across the following transaction, as it appears the account (1482) you chose is not a valid selection in NetSuite."
+RMP-0044,bill,1744.27,Zoom,Northwind US,2026-11-14,Please enter value(s) for: Location
+RMP-0008,reimbursement,7271.87,Zoom,Northwind UK,2026-11-04,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0017,reimbursement,633.05,Gusto,Northwind UK,2026-11-16,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0009,bill payment,746.05,Uline,Northwind UK,2026-11-20,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0007,card transaction,3444.15,Gusto,Northwind UK,2026-11-20,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0048,card transaction,1515.15,Gusto,Northwind UK,2026-11-09,"We weren't able to sync across the following transaction, as it appears the account (1482) you chose is not a valid selection in NetSuite."
+RMP-0057,bill,2419.91,WeWork,Northwind Canada,2026-11-10,Invalid Reference Id | Invalid Reference Id : Accounts element id [6120].
+RMP-0036,bill,613.67,AWS,Northwind Canada,2026-10-30,The accounting period is closed in your accounting provider. Please open the period or change the accounting date to fall within an open period.
+RMP-0043,card transaction,583.09,Gusto,Northwind US,2026-11-08,Please enter value(s) for: Location
+RMP-0001,card transaction,264.1,Uline,Northwind UK,2026-11-08,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0034,bill,6428.02,Notion,Northwind Canada,2026-10-30,The accounting period is closed in your accounting provider. Please open the period or change the accounting date to fall within an open period.
+RMP-0042,reimbursement,3835.26,Zoom,Northwind Canada,2026-11-02,Please enter value(s) for: Location
+RMP-0052,bill payment,4545.54,WeWork,Northwind US,2026-11-17,Unauthorized user
+RMP-0040,bill,6521.24,Zoom,Northwind US,2026-11-16,Please enter value(s) for: Location
+RMP-0020,bill payment,8084.49,Notion,Northwind UK,2026-11-08,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0046,card transaction,493.27,Gusto,Northwind US,2026-11-08,"We weren't able to sync across the following transaction, as it appears the account (1482) you chose is not a valid selection in NetSuite."
+RMP-0035,bill payment,8100.54,Zoom,Northwind US,2026-10-30,The accounting period is closed in your accounting provider. Please open the period or change the accounting date to fall within an open period.
+RMP-0054,bill,3657.83,Delta,Northwind Canada,2026-11-20,Unauthorized user
+RMP-0029,card transaction,5406.54,Zoom,Northwind US,2026-10-30,The accounting period is closed in your accounting provider. Please open the period or change the accounting date to fall within an open period.
+RMP-0011,reimbursement,8867.58,Delta,Northwind UK,2026-11-13,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
+RMP-0019,bill,2249.78,Uline,Northwind UK,2026-11-19,Could not determine the correct NetSuite Subsidiary for this bill. Ensure this entity is associated with a NetSuite subsidiary within your Ramp Accounting Settings.
