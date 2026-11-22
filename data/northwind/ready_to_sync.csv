@@ -1,0 +1,13 @@
+object_id,object_type,amount,vendor,ramp_entity,date,gl_account,department,location
+RMP-1001,card transaction,129.00,Figma,Northwind US,2026-12-02,6120,Design,
+RMP-1002,bill,4800.00,WeWork,Northwind UK,2026-12-01,6400,Operations,London
+RMP-1003,card transaction,642.18,Delta,Northwind UK,2026-12-03,6200,Sales,
+RMP-1004,card transaction,88.40,Uline,Northwind Canada,2026-12-04,6310,Operations,
+RMP-1005,bill,2310.00,AWS,Northwind US,2026-12-01,6120,Engineering,
+RMP-1006,card transaction,350.00,Figma,Northwind Germany,2026-12-05,6120,Design,
+RMP-1007,card transaction,1200.00,AWS,Northwind US,2026-10-29,6120,Engineering,
+RMP-1008,reimbursement,74.25,Uline,Northwind US,2026-12-06,6999,Marketing,
+RMP-1009,bill,950.00,Gusto,Northwind US,2026-12-01,6120,People,Austin
+RMP-1010,card transaction,56.00,Figma,Northwind Canada,2026-12-07,6120,Design,
+RMP-1011,bill,3100.00,WeWork,Northwind US,2026-12-01,6400,Operations,New York
+RMP-1012,card transaction,412.70,Delta,Northwind US,2026-12-08,6200,Sales,
