@@ -49,15 +49,16 @@ def make_classifier(catalog, api_key, threshold=THRESHOLD):
                            "content": f"Catalog:\n{options}\n\nError:\n{raw_error}"}],
             )
             if resp.stop_reason != "end_turn":  # e.g. max_tokens or refusal: no usable answer
-                return Match(None, "ai", 0.0, note=f"AI gave no answer ({resp.stop_reason})")
+                return Match(None, "ai_failed", 0.0, note=f"AI gave no answer ({resp.stop_reason})")
             data = json.loads(next(b.text for b in resp.content if b.type == "text"))
             cid = data["catalog_id"]
             conf = float(data["confidence"])
             reason = str(data["reason"])
         # Network trouble, a bad key, or an unparseable reply: fail safe, not loud.
         # Narrower than `except Exception`, so a real bug in this code still surfaces.
+        # "ai_failed" (not "ai") tells callers this was a failure, so the app won't cache it.
         except (anthropic.APIError, ValueError, KeyError, StopIteration) as e:
-            return Match(None, "ai", 0.0, note=f"AI unavailable ({type(e).__name__})")
+            return Match(None, "ai_failed", 0.0, note=f"AI unavailable ({type(e).__name__})")
 
         # Second guard: the schema already limits ids, but never trust one guard alone.
         if cid not in valid_ids or conf < threshold:

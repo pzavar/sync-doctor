@@ -5,7 +5,7 @@ import pandas as pd
 @dataclass
 class Match:
     catalog_id: str | None   # None means unrecognized
-    method: str              # "rule", "ai", or "none"
+    method: str              # "rule", "ai", "ai_failed" (call errored), or "none"
     confidence: float
     values: dict = field(default_factory=dict)  # named groups, like {"field": "Location"}
     note: str = ""           # the AI's one-line reason, if any

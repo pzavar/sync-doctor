@@ -59,7 +59,8 @@ def root_causes(triaged: pd.DataFrame) -> pd.DataFrame:
                dollars=("amount", "sum"),
                object_ids=("object_id", list),
                vendors=("vendor", lambda s: sorted(set(s))),
-               preflight=("method", lambda s: (s == "preflight").all()))
+               preflight=("method", lambda s: (s == "preflight").all()),
+               notes=("note", lambda s: sorted({x for x in s if isinstance(x, str) and x})))
           .reset_index()
           # Rule-based groups first (suggested=False sorts before True), then count, then dollars.
           .sort_values(["suggested", "failures", "dollars"], ascending=[True, False, False])
