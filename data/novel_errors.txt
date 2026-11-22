@@ -1,0 +1,12 @@
+# Errors deliberately left OUT of catalog.csv, used in Step 5 to test the AI fallback.
+# One error per line. Lines starting with # are comments. Text is verbatim from the source article.
+
+# https://support.ramp.com/netsuite-sync-error-discount-item-was-not-found
+Discount item was not found
+
+# https://support.ramp.com/accountingsyncamountinfocurrency-ref-is-required-to-sync-transaction-in-original-currency-transaction-id-transaction-id
+# Note: Ramp's fix for this one references Sage Intacct, so it is a good "should decline" test.
+AccountingSyncAmountInfo.currency_ref is required to sync transaction in original currency (Transaction ID: {transaction_id} )
+
+# https://support.ramp.com/netsuite-sync-error-the-currency-on-the-transaction-txn-currency-is-different-from-entity-currency-the-currency-of-the-entity-entity-name-on-this-transaction
+The currency on the transaction, {txn_currency} is different from {entity_currency}, the currency of the entity, {entity_name} on this transaction.
